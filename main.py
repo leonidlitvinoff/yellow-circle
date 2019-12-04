@@ -19,4 +19,5 @@ while running:
     if pos:
         r += v * clock.tick() / 1000  # v * t в секундах
         pygame.draw.circle(screen, (255, 255, 0), (pos[0], pos[1]), int(r))
+
     pygame.display.flip()
